@@ -1,0 +1,7 @@
+<Editable as |editable|>
+  {{#if editable.isEditing}}
+    <h2>Now editing</h2>
+  {{/if}}
+
+  <button {{on "click" editable.edit}}>Edit</button>
+</Editable>
